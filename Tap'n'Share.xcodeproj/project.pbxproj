@@ -7,14 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE6357591B67DE47002A5C51 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6357581B67DE47002A5C51 /* CoreLocation.framework */; };
+		BE63575B1B67DE4B002A5C51 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE63575A1B67DE4B002A5C51 /* MessageUI.framework */; };
+		BE63575D1B67E073002A5C51 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE63575C1B67E073002A5C51 /* AVFoundation.framework */; };
+		BE6357641B67E671002A5C51 /* ShareOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6357631B67E671002A5C51 /* ShareOptionsViewController.m */; };
+		BE6357731B67F2CF002A5C51 /* SocialNetworkShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6357721B67F2CF002A5C51 /* SocialNetworkShareViewController.m */; };
+		BE6357791B67F2F2002A5C51 /* MailShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6357781B67F2F2002A5C51 /* MailShareViewController.m */; };
+		BE6357861B681815002A5C51 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6357851B681815002A5C51 /* Location.m */; };
+		BE63578C1B681874002A5C51 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = BE63578B1B681874002A5C51 /* User.m */; };
+		BE7BBABF1B68CAF6008A37A1 /* twitter_birds.png in Resources */ = {isa = PBXBuildFile; fileRef = BE7BBABE1B68CAF6008A37A1 /* twitter_birds.png */; };
+		BE7BBAD41B68DC2F008A37A1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7BBAD31B68DC2F008A37A1 /* Social.framework */; };
+		BE7BBAD71B69008B008A37A1 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7BBAD61B69008B008A37A1 /* Reachability.m */; };
 		BE8EB5831B6681AC00624081 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8EB5821B6681AC00624081 /* main.m */; };
 		BE8EB5861B6681AC00624081 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8EB5851B6681AC00624081 /* AppDelegate.m */; };
 		BE8EB5891B6681AC00624081 /* Tap_n_Share.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE8EB5871B6681AC00624081 /* Tap_n_Share.xcdatamodeld */; };
-		BE8EB58C1B6681AC00624081 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8EB58B1B6681AC00624081 /* ViewController.m */; };
 		BE8EB58F1B6681AC00624081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE8EB58D1B6681AC00624081 /* Main.storyboard */; };
 		BE8EB5911B6681AC00624081 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8EB5901B6681AC00624081 /* Images.xcassets */; };
 		BE8EB5941B6681AC00624081 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE8EB5921B6681AC00624081 /* LaunchScreen.xib */; };
 		BE8EB5A01B6681AC00624081 /* Tap_n_ShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8EB59F1B6681AC00624081 /* Tap_n_ShareTests.m */; };
+		BE8EB5AB1B66899800624081 /* tapnshare.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8EB5AA1B66899800624081 /* tapnshare.png */; };
+		BE8EB5B61B668AA900624081 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8EB5B51B668AA900624081 /* LoginViewController.m */; };
+		BE8EB5B91B668ABB00624081 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8EB5B81B668ABB00624081 /* SignUpViewController.m */; };
+		BE8EB5BB1B66905B00624081 /* Blue-Gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8EB5BA1B66905B00624081 /* Blue-Gradient.png */; };
+		BE8EB5C11B669FA300624081 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8EB5C01B669FA300624081 /* face.png */; };
+		BE8EB5C41B66BB5100624081 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8EB5C31B66BB5100624081 /* HomeViewController.m */; };
+		BE8EB5C71B66EA1600624081 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8EB5C61B66EA1600624081 /* MapKit.framework */; };
+		BE8EB5D71B66EF0C00624081 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8EB5D61B66EF0C00624081 /* Utility.m */; };
+		BE8EB5DA1B66F10D00624081 /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8EB5D91B66F10D00624081 /* Constant.m */; };
+		BEE731BB1B681DDE002896C7 /* logout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE731B71B681DDE002896C7 /* logout@2x.png */; };
+		BEE731BD1B681DDE002896C7 /* refresh_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE731B91B681DDE002896C7 /* refresh_black@2x.png */; };
+		BEE731BF1B681DFA002896C7 /* refresh_black@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE731BE1B681DFA002896C7 /* refresh_black@3x.png */; };
+		BEE731C21B681E11002896C7 /* logout@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE731C01B681E11002896C7 /* logout@3x.png */; };
+		BEE731C31B681E11002896C7 /* refresh_black.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE731C11B681E11002896C7 /* refresh_black.png */; };
+		BEE731C51B681E3F002896C7 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE731C41B681E3F002896C7 /* logout.png */; };
+		BEE731C81B681EAD002896C7 /* tapnshare@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE731C61B681EAD002896C7 /* tapnshare@2x.png */; };
+		BEE731C91B681EAD002896C7 /* tapnshare@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE731C71B681EAD002896C7 /* tapnshare@3x.png */; };
+		BEE731CD1B68276C002896C7 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE731CC1B68276C002896C7 /* placeholder.png */; };
+		BEE731CF1B68280B002896C7 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE731CE1B68280B002896C7 /* mail.png */; };
+		BEE731D21B682883002896C7 /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE731D11B682883002896C7 /* fb.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +58,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE6357581B67DE47002A5C51 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BE63575A1B67DE4B002A5C51 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		BE63575C1B67E073002A5C51 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BE6357621B67E671002A5C51 /* ShareOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareOptionsViewController.h; path = "Tap'n'Share/ShareOptionsViewController.h"; sourceTree = "<group>"; };
+		BE6357631B67E671002A5C51 /* ShareOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareOptionsViewController.m; path = "Tap'n'Share/ShareOptionsViewController.m"; sourceTree = "<group>"; };
+		BE6357711B67F2CF002A5C51 /* SocialNetworkShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocialNetworkShareViewController.h; path = "Tap'n'Share/SocialNetworkShareViewController.h"; sourceTree = "<group>"; };
+		BE6357721B67F2CF002A5C51 /* SocialNetworkShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocialNetworkShareViewController.m; path = "Tap'n'Share/SocialNetworkShareViewController.m"; sourceTree = "<group>"; };
+		BE6357771B67F2F2002A5C51 /* MailShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MailShareViewController.h; path = "Tap'n'Share/MailShareViewController.h"; sourceTree = "<group>"; };
+		BE6357781B67F2F2002A5C51 /* MailShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MailShareViewController.m; path = "Tap'n'Share/MailShareViewController.m"; sourceTree = "<group>"; };
+		BE6357841B681815002A5C51 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Location.h; path = "Tap'n'Share/Location.h"; sourceTree = "<group>"; };
+		BE6357851B681815002A5C51 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Location.m; path = "Tap'n'Share/Location.m"; sourceTree = "<group>"; };
+		BE63578A1B681874002A5C51 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = "Tap'n'Share/User.h"; sourceTree = "<group>"; };
+		BE63578B1B681874002A5C51 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = "Tap'n'Share/User.m"; sourceTree = "<group>"; };
+		BE7BBABE1B68CAF6008A37A1 /* twitter_birds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_birds.png; sourceTree = "<group>"; };
+		BE7BBAD31B68DC2F008A37A1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		BE7BBAD51B69008B008A37A1 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		BE7BBAD61B69008B008A37A1 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		BE8EB57D1B6681AC00624081 /* Tap'n'Share.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap'n'Share.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8EB5811B6681AC00624081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE8EB5821B6681AC00624081 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BE8EB5841B6681AC00624081 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE8EB5851B6681AC00624081 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BE8EB5881B6681AC00624081 /* Tap_n_Share.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tap_n_Share.xcdatamodel; sourceTree = "<group>"; };
-		BE8EB58A1B6681AC00624081 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BE8EB58B1B6681AC00624081 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BE8EB58E1B6681AC00624081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE8EB5901B6681AC00624081 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BE8EB5931B6681AC00624081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BE8EB5991B6681AC00624081 /* Tap'n'ShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap'n'ShareTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8EB59E1B6681AC00624081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE8EB59F1B6681AC00624081 /* Tap_n_ShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tap_n_ShareTests.m; sourceTree = "<group>"; };
+		BE8EB5AA1B66899800624081 /* tapnshare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tapnshare.png; sourceTree = "<group>"; };
+		BE8EB5B41B668AA900624081 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BE8EB5B51B668AA900624081 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		BE8EB5B71B668ABB00624081 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		BE8EB5B81B668ABB00624081 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		BE8EB5BA1B66905B00624081 /* Blue-Gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue-Gradient.png"; sourceTree = "<group>"; };
+		BE8EB5C01B669FA300624081 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
+		BE8EB5C21B66BB5100624081 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		BE8EB5C31B66BB5100624081 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		BE8EB5C61B66EA1600624081 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BE8EB5D51B66EF0C00624081 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		BE8EB5D61B66EF0C00624081 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		BE8EB5D81B66F10D00624081 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		BE8EB5D91B66F10D00624081 /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
+		BE8EB5DC1B66F33300624081 /* Tap'n'Share-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tap'n'Share-Prefix.pch"; sourceTree = "<group>"; };
+		BEE731B71B681DDE002896C7 /* logout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logout@2x.png"; sourceTree = "<group>"; };
+		BEE731B91B681DDE002896C7 /* refresh_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh_black@2x.png"; sourceTree = "<group>"; };
+		BEE731BE1B681DFA002896C7 /* refresh_black@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh_black@3x.png"; sourceTree = "<group>"; };
+		BEE731C01B681E11002896C7 /* logout@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logout@3x.png"; sourceTree = "<group>"; };
+		BEE731C11B681E11002896C7 /* refresh_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh_black.png; sourceTree = "<group>"; };
+		BEE731C41B681E3F002896C7 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		BEE731C61B681EAD002896C7 /* tapnshare@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tapnshare@2x.png"; sourceTree = "<group>"; };
+		BEE731C71B681EAD002896C7 /* tapnshare@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tapnshare@3x.png"; sourceTree = "<group>"; };
+		BEE731CC1B68276C002896C7 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		BEE731CE1B68280B002896C7 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		BEE731D11B682883002896C7 /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +120,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE7BBAD41B68DC2F008A37A1 /* Social.framework in Frameworks */,
+				BE63575D1B67E073002A5C51 /* AVFoundation.framework in Frameworks */,
+				BE63575B1B67DE4B002A5C51 /* MessageUI.framework in Frameworks */,
+				BE6357591B67DE47002A5C51 /* CoreLocation.framework in Frameworks */,
+				BE8EB5C71B66EA1600624081 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +138,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE63575E1B67E623002A5C51 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				BE6357621B67E671002A5C51 /* ShareOptionsViewController.h */,
+				BE6357631B67E671002A5C51 /* ShareOptionsViewController.m */,
+				BE63576C1B67F274002A5C51 /* SocialNetwork */,
+				BE63576B1B67F26E002A5C51 /* Mail */,
+			);
+			name = Share;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BE63576B1B67F26E002A5C51 /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				BE6357771B67F2F2002A5C51 /* MailShareViewController.h */,
+				BE6357781B67F2F2002A5C51 /* MailShareViewController.m */,
+			);
+			name = Mail;
+			sourceTree = "<group>";
+		};
+		BE63576C1B67F274002A5C51 /* SocialNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				BE6357711B67F2CF002A5C51 /* SocialNetworkShareViewController.h */,
+				BE6357721B67F2CF002A5C51 /* SocialNetworkShareViewController.m */,
+			);
+			name = SocialNetwork;
+			sourceTree = "<group>";
+		};
 		BE8EB5741B6681AC00624081 = {
 			isa = PBXGroup;
 			children = (
@@ -83,14 +189,18 @@
 		BE8EB57F1B6681AC00624081 /* Tap'n'Share */ = {
 			isa = PBXGroup;
 			children = (
-				BE8EB5841B6681AC00624081 /* AppDelegate.h */,
-				BE8EB5851B6681AC00624081 /* AppDelegate.m */,
-				BE8EB58A1B6681AC00624081 /* ViewController.h */,
-				BE8EB58B1B6681AC00624081 /* ViewController.m */,
-				BE8EB58D1B6681AC00624081 /* Main.storyboard */,
+				BE8EB5AF1B6689CD00624081 /* AppDelegate */,
+				BE8EB5AC1B66899E00624081 /* Login */,
+				BE8EB5AD1B6689A300624081 /* Signup */,
+				BE8EB5AE1B6689AA00624081 /* Home */,
+				BE63575E1B67E623002A5C51 /* Share */,
+				BE8EB5C81B66EA2100624081 /* Framework */,
+				BE8EB5C51B66BB6600624081 /* Storyboard */,
+				BE8EB5D41B66EEF900624081 /* Utility */,
+				BE8EB5A91B66890400624081 /* Asset */,
 				BE8EB5901B6681AC00624081 /* Images.xcassets */,
 				BE8EB5921B6681AC00624081 /* LaunchScreen.xib */,
-				BE8EB5871B6681AC00624081 /* Tap_n_Share.xcdatamodeld */,
+				BE8EB5CF1B66EE1100624081 /* Database */,
 				BE8EB5801B6681AC00624081 /* Supporting Files */,
 			);
 			path = "Tap'n'Share";
@@ -99,6 +209,7 @@
 		BE8EB5801B6681AC00624081 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BE8EB5DC1B66F33300624081 /* Tap'n'Share-Prefix.pch */,
 				BE8EB5811B6681AC00624081 /* Info.plist */,
 				BE8EB5821B6681AC00624081 /* main.m */,
 			);
@@ -120,6 +231,118 @@
 				BE8EB59E1B6681AC00624081 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE8EB5A91B66890400624081 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				BE7BBABE1B68CAF6008A37A1 /* twitter_birds.png */,
+				BEE731D11B682883002896C7 /* fb.png */,
+				BEE731CE1B68280B002896C7 /* mail.png */,
+				BEE731CC1B68276C002896C7 /* placeholder.png */,
+				BEE731C11B681E11002896C7 /* refresh_black.png */,
+				BEE731B91B681DDE002896C7 /* refresh_black@2x.png */,
+				BEE731BE1B681DFA002896C7 /* refresh_black@3x.png */,
+				BE8EB5AA1B66899800624081 /* tapnshare.png */,
+				BEE731C61B681EAD002896C7 /* tapnshare@2x.png */,
+				BEE731C71B681EAD002896C7 /* tapnshare@3x.png */,
+				BEE731C41B681E3F002896C7 /* logout.png */,
+				BEE731B71B681DDE002896C7 /* logout@2x.png */,
+				BEE731C01B681E11002896C7 /* logout@3x.png */,
+				BE8EB5C01B669FA300624081 /* face.png */,
+				BE8EB5BA1B66905B00624081 /* Blue-Gradient.png */,
+			);
+			name = Asset;
+			sourceTree = "<group>";
+		};
+		BE8EB5AC1B66899E00624081 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EB5B41B668AA900624081 /* LoginViewController.h */,
+				BE8EB5B51B668AA900624081 /* LoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		BE8EB5AD1B6689A300624081 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EB5B71B668ABB00624081 /* SignUpViewController.h */,
+				BE8EB5B81B668ABB00624081 /* SignUpViewController.m */,
+			);
+			name = Signup;
+			sourceTree = "<group>";
+		};
+		BE8EB5AE1B6689AA00624081 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EB5C21B66BB5100624081 /* HomeViewController.h */,
+				BE8EB5C31B66BB5100624081 /* HomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		BE8EB5AF1B6689CD00624081 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EB5841B6681AC00624081 /* AppDelegate.h */,
+				BE8EB5851B6681AC00624081 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BE8EB5C51B66BB6600624081 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EB58D1B6681AC00624081 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		BE8EB5C81B66EA2100624081 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				BE7BBAD51B69008B008A37A1 /* Reachability.h */,
+				BE7BBAD61B69008B008A37A1 /* Reachability.m */,
+				BE7BBAD31B68DC2F008A37A1 /* Social.framework */,
+				BE63575C1B67E073002A5C51 /* AVFoundation.framework */,
+				BE63575A1B67DE4B002A5C51 /* MessageUI.framework */,
+				BE6357581B67DE47002A5C51 /* CoreLocation.framework */,
+				BE8EB5C61B66EA1600624081 /* MapKit.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		BE8EB5CF1B66EE1100624081 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EB5D01B66EE2300624081 /* Entity */,
+				BE8EB5871B6681AC00624081 /* Tap_n_Share.xcdatamodeld */,
+			);
+			name = Database;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BE8EB5D01B66EE2300624081 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				BE63578A1B681874002A5C51 /* User.h */,
+				BE63578B1B681874002A5C51 /* User.m */,
+				BE6357841B681815002A5C51 /* Location.h */,
+				BE6357851B681815002A5C51 /* Location.m */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		BE8EB5D41B66EEF900624081 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EB5D51B66EF0C00624081 /* Utility.h */,
+				BE8EB5D61B66EF0C00624081 /* Utility.m */,
+				BE8EB5D81B66F10D00624081 /* Constant.h */,
+				BE8EB5D91B66F10D00624081 /* Constant.m */,
+			);
+			name = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +425,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE731BD1B681DDE002896C7 /* refresh_black@2x.png in Resources */,
+				BEE731BB1B681DDE002896C7 /* logout@2x.png in Resources */,
+				BE8EB5C11B669FA300624081 /* face.png in Resources */,
+				BE8EB5BB1B66905B00624081 /* Blue-Gradient.png in Resources */,
+				BEE731C91B681EAD002896C7 /* tapnshare@3x.png in Resources */,
+				BEE731BF1B681DFA002896C7 /* refresh_black@3x.png in Resources */,
+				BEE731C81B681EAD002896C7 /* tapnshare@2x.png in Resources */,
+				BEE731C21B681E11002896C7 /* logout@3x.png in Resources */,
 				BE8EB58F1B6681AC00624081 /* Main.storyboard in Resources */,
 				BE8EB5941B6681AC00624081 /* LaunchScreen.xib in Resources */,
+				BEE731C31B681E11002896C7 /* refresh_black.png in Resources */,
+				BE8EB5AB1B66899800624081 /* tapnshare.png in Resources */,
+				BEE731CD1B68276C002896C7 /* placeholder.png in Resources */,
+				BEE731D21B682883002896C7 /* fb.png in Resources */,
+				BE7BBABF1B68CAF6008A37A1 /* twitter_birds.png in Resources */,
 				BE8EB5911B6681AC00624081 /* Images.xcassets in Resources */,
+				BEE731CF1B68280B002896C7 /* mail.png in Resources */,
+				BEE731C51B681E3F002896C7 /* logout.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +460,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE6357791B67F2F2002A5C51 /* MailShareViewController.m in Sources */,
 				BE8EB5861B6681AC00624081 /* AppDelegate.m in Sources */,
+				BE8EB5B61B668AA900624081 /* LoginViewController.m in Sources */,
+				BE8EB5DA1B66F10D00624081 /* Constant.m in Sources */,
 				BE8EB5891B6681AC00624081 /* Tap_n_Share.xcdatamodeld in Sources */,
-				BE8EB58C1B6681AC00624081 /* ViewController.m in Sources */,
+				BE6357731B67F2CF002A5C51 /* SocialNetworkShareViewController.m in Sources */,
+				BE6357861B681815002A5C51 /* Location.m in Sources */,
+				BE63578C1B681874002A5C51 /* User.m in Sources */,
+				BE8EB5D71B66EF0C00624081 /* Utility.m in Sources */,
+				BE6357641B67E671002A5C51 /* ShareOptionsViewController.m in Sources */,
+				BE7BBAD71B69008B008A37A1 /* Reachability.m in Sources */,
+				BE8EB5B91B668ABB00624081 /* SignUpViewController.m in Sources */,
+				BE8EB5C41B66BB5100624081 /* HomeViewController.m in Sources */,
 				BE8EB5831B6681AC00624081 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,8 +599,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tap'n'Share",
+					"/Users/nikhilwali/Documents/Xcode_Work/SDK's/FacebookSDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tap'n'Share/Tap'n'Share-Prefix.pch";
 				INFOPLIST_FILE = "Tap'n'Share/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tap'n'Share",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -361,8 +620,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tap'n'Share",
+					"/Users/nikhilwali/Documents/Xcode_Work/SDK's/FacebookSDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tap'n'Share/Tap'n'Share-Prefix.pch";
 				INFOPLIST_FILE = "Tap'n'Share/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tap'n'Share",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -420,6 +690,7 @@
 				BE8EB5A51B6681AC00624081 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE8EB5A61B6681AC00624081 /* Build configuration list for PBXNativeTarget "Tap'n'ShareTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +699,7 @@
 				BE8EB5A81B6681AC00624081 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -438,7 +710,8 @@
 				BE8EB5881B6681AC00624081 /* Tap_n_Share.xcdatamodel */,
 			);
 			currentVersion = BE8EB5881B6681AC00624081 /* Tap_n_Share.xcdatamodel */;
-			path = Tap_n_Share.xcdatamodeld;
+			name = Tap_n_Share.xcdatamodeld;
+			path = "Tap'n'Share/Tap_n_Share.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

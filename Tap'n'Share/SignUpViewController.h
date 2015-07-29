@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SignUpViewController.h
 //  Tap'n'Share
 //
 //  Created by Nikhil Wali on 27/07/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SignUpViewController : UIViewController
 
 @end
-

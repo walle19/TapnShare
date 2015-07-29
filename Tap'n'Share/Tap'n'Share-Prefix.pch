@@ -1,0 +1,20 @@
+//
+//  Tap'n'Share-Prefix.pch
+//  Tap'n'Share
+//
+//  Created by Nikhil Wali on 28/07/15.
+//  Copyright (c) 2015 Nikhil Wali. All rights reserved.
+//
+
+#ifndef Tap_n_Share_Tap_n_Share_Prefix_pch
+#define Tap_n_Share_Tap_n_Share_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+
+#import "Utility.h"
+#import "Constant.h"
+
+#endif
